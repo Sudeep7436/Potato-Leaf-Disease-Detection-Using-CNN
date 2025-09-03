@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('/static/new.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: white;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+        }
+        .result-box {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .result-box p {
+            font-size: 1.2em;
+            color: #333;
+        }
+        button {
+            background-color: #4caf50;
+            color: rgb(53, 15, 222);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-box">
+        <h1>Prediction Result
+        </h1>
+        
+        <p> <strong>{{ result }}</strong></p>
+        <button onclick="window.location.href='/'">Upload Another Image</button>
+    </div>
+</body>
+</html>
