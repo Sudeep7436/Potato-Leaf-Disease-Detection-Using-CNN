@@ -2,3 +2,9 @@
 Potato is one of the most widely cultivated crops worldwide, and its productivity is often hampered by various leaf diseases. Early detection and diagnosis of these diseases are crucial for minimizing crop loss and ensuring food security. In this study, we propose a novel system for the automated detection of potato leaf diseases using Convolution Neural Networks (CNN) integrated with a web-based application built using the Flask framework. The CNN model is trained on a data set of diseased and healthy potato leaf images to accurately classify various common diseases such as early blight, late blight, and leaf spot. The system provides a user-friendly interface, where farmers and agricultural experts can upload images of potato leaves, and the trained CNN model processes these images to predict the presence of disease. The Flask framework facilitates the deployment of this model, offering real-time analysis, easy accessibility, and scalability. The results demonstrate the effectiveness of CNN in achieving high accuracy for disease detection, making this system a valuable tool for improving crop management and productivity.
 This integration of machine learning and web technology offers a robust, accessible solution for disease diagnosis, empowering farmers with technology to protect their crops from potential damage.
 <img width="683" height="364" alt="image" src="https://github.com/user-attachments/assets/e76c4399-69b8-4b98-a87b-c2a0a5fe3884" />
+
+<img width="689" height="335" alt="image" src="https://github.com/user-attachments/assets/9362184a-8cf7-4d6a-83c9-3e0286621ec1" />
+
+<img width="683" height="338" alt="image" src="https://github.com/user-attachments/assets/d41befd6-7b0d-48e9-960b-bba24233f18b" />
+
+
